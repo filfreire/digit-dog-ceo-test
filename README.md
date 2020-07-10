@@ -31,6 +31,18 @@ pip install questions-three
 python src/skeleton_suite.py
 ```
 
+## How to run the whole suite of automated checks
+
+To run all checks:
+```
+sudo python3 -m questions_three.ci.run_all src/test
+```
+
+To run all checks in parallel "threads":
+```
+sudo MAX_PARALLEL_SUITES=4 python3 -m questions_three.ci.run_all src/test
+````
+
 ## Reports
 
 Reports can be found in `reports/` after execution.
