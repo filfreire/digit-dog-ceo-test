@@ -21,7 +21,7 @@ sudo python3 -m pylint src/skeleton_suite.py
 
 ```
 
-Notes: TODO - fix the "ugly" need ofr sudo. I'm having trouble with the python envs locally - I'll need to figure out a proper setup, but right now using sudo is the only way it works.
+Notes: TODO - fix the "ugly" need for sudo. I'm having trouble with the python envs locally - I'll need to figure out a proper setup, but right now using sudo is the only way it works.
 
 Ideally it should work with:
 
