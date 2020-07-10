@@ -35,11 +35,17 @@ python src/skeleton_suite.py
 
 To run all checks:
 ```
+python -m questions_three.ci.run_all src/test
+
+# or:
 sudo python3 -m questions_three.ci.run_all src/test
 ```
 
 To run all checks in parallel "threads":
 ```
+MAX_PARALLEL_SUITES=4 python -m questions_three.ci.run_all src/test
+
+# or:
 sudo MAX_PARALLEL_SUITES=4 python3 -m questions_three.ci.run_all src/test
 ````
 
